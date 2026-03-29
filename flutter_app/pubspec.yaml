@@ -1,0 +1,23 @@
+name: inventario_supermercado
+description: Aplicación móvil para gestión de inventario de un supermercado. Autora: Danna Ramirez.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0        # Base de datos SQLite local (equivalente a MySQL en móvil)
+  path: ^1.8.3           # Para obtener la ruta de la base de datos
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
